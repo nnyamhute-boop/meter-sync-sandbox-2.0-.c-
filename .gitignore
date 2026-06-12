@@ -1,0 +1,102 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.snupkg
+project.lock.json
+TestResults/
+artifacts/
+nupkgs/
+publish/
+BenchmarkDotNet.Artifacts/
+
+## .NET tools
+.dotnet/
+*.DotSettings.user
+launchSettings.json
+!libs/blazor-ui/Axis.Axiom.Gallery/Properties/launchSettings.json
+
+## NuGet
+packages/
+
+## Node / Tailwind toolchain
+node_modules/
+
+## Generated Tailwind bundles — built on demand by Axiom.Tailwind.targets
+## (eng/Axiom.Tailwind.targets) during dotnet build. Not source of truth;
+## regenerate with `npm run build:css`.
+libs/blazor-ui/Axis.Axiom/wwwroot/css/axiom.utilities.css
+libs/blazor-ui/Axis.Axiom.Gallery/wwwroot/app.css
+products/revcoll/platform/src/Axis.Revcoll.Web/wwwroot/app.css
+products/sync/src/Hosts/Axis.Sync.WebApp/wwwroot/app.css
+
+## IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+## Rider
+*.sln.iml
+
+## Gradle / Kotlin
+.gradle/
+build/
+# Re-include the Sage Pastel bridge composition projects — README documents
+# their location as src/build/Axis.SagePastel.Bridge.vX_Y/.
+!sdk/sage-pastel/src/build/
+# Re-include the eng/build/ shared MSBuild + PowerShell helpers (not a Gradle
+# output dir despite the name).
+!eng/build/
+!sdk/sage-pastel/src/build/**
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+
+## Android
+captures/
+.externalNativeBuild/
+.cxx/
+google-services.json
+# Revcoll Android's Firebase config is intentionally checked in — Firebase
+# API keys are public by design (restricted by package name + SHA-1, not
+# secrecy) and are bundled into every released APK.
+!products/revcoll/android-legacy/app/google-services.json
+
+## PHP
+vendor/
+.env
+
+## OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+## Claude / Worktrees
+.claude/
+.worktrees/
+
+## Logs
+*.log
+Logs/
+
+## Misc
+dist/
+nupkg/
+
+.worktrees/
+
+## Android CLI scratch (android screen capture / layout / perfetto)
+ui.png
+layout.json
+*.perfetto-trace

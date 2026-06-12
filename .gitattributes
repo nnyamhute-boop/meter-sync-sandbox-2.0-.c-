@@ -1,0 +1,10 @@
+# Force LF for the Tailwind toolchain sources. The generated bundles
+# are gitignored (see .gitignore — built on demand by dotnet build).
+
+libs/blazor-ui/Axis.Axiom/tailwind/app.css text eol=lf
+libs/blazor-ui/Axis.Axiom.Gallery/tailwind/app.css text eol=lf
+products/revcoll/platform/src/Axis.Revcoll.Web/tailwind/app.css text eol=lf
+
+eng/Axiom.Tailwind.targets text eol=lf
+package.json text eol=lf
+package-lock.json text eol=lf

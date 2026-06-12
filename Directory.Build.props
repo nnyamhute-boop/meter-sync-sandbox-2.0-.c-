@@ -1,0 +1,27 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>Axis Solutions</Company>
+    <Copyright>© 2025 Axis Solutions. All rights reserved.</Copyright>
+  </PropertyGroup>
+
+  <!-- WiX 6 SDK + wixext package version. Single source of truth for everything
+       MSBuild can see (centrally-pinned wixext packages + any wixproj that
+       chooses to reference $(WixSdkVersion)). The Sdk attribute on a wixproj
+       (Sdk="WixToolset.Sdk/X.Y.Z") is evaluated before Directory.Build.props
+       loads, so it cannot consume this property directly. Bump the wixproj
+       Sdk string in lockstep when changing the version here. Pipelines that
+       install the wix global tool by version must also match. -->
+  <PropertyGroup>
+    <WixSdkVersion>6.0.2</WixSdkVersion>
+  </PropertyGroup>
+</Project>

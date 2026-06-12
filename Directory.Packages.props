@@ -1,0 +1,534 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+    <CentralPackageFloatingVersionsEnabled>true</CentralPackageFloatingVersionsEnabled>
+  </PropertyGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       .NET Aspire
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Aspire - Hosting">
+    <!-- Aspire.Hosting.AppHost: version managed by Aspire.AppHost.Sdk; do not centrally pin -->
+    <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="13.2.1" />
+    <PackageVersion Include="Aspire.Hosting.RabbitMQ" Version="13.1.0" />
+    <PackageVersion Include="Aspire.Hosting.Redis" Version="13.1.1" />
+    <PackageVersion Include="Aspire.Hosting.Seq" Version="13.2.1" />
+    <PackageVersion Include="Aspire.Hosting.Keycloak" Version="13.1.1-preview.1.26105.8" />
+    <PackageVersion Include="CommunityToolkit.Aspire.Hosting.k6" Version="13.1.1" />
+  </ItemGroup>
+
+  <ItemGroup Label="Aspire - Client Integrations">
+    <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="13.2.2" />
+    <PackageVersion Include="Aspire.StackExchange.Redis" Version="13.1.1" />
+    <PackageVersion Include="Aspire.RabbitMQ.Client" Version="13.1.0" />
+    <PackageVersion Include="Aspire.Keycloak.Authentication" Version="13.1.0-preview.1.25616.3" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Entity Framework Core
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Entity Framework Core">
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.1" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9" />
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+    <PackageVersion Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+    <PackageVersion Include="EFCore.NamingConventions" Version="10.0.1" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Microsoft Extensions (DI, Hosting, Configuration, Logging, etc.)
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Microsoft Extensions">
+    <PackageVersion Include="Microsoft.Extensions.Configuration" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.Json" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.Memory" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.WindowsServices" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Http" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Polly" Version="9.0.10" />
+    <PackageVersion Include="Microsoft.Extensions.Http.Resilience" Version="10.3.0" />
+    <PackageVersion Include="Microsoft.Extensions.Identity.Core" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Logging" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Options.DataAnnotations" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Extensions.Resilience" Version="10.3.0" />
+    <PackageVersion Include="Microsoft.Extensions.ServiceDiscovery" Version="10.1.0" />
+    <PackageVersion Include="Microsoft.Extensions.FileProviders.Embedded" Version="10.0.7" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       ASP.NET Core
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="ASP.NET Core">
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.1" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.Authorization" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.9" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.DataProtection" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.DataProtection.Extensions" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.3.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageVersion Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="9.0.6" />
+    <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.Playwright" Version="1.49.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.1" />
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.SignalR.Common" Version="10.0.7" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Data Access
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Data Access">
+    <PackageVersion Include="Cronos" Version="0.8.4" />
+    <PackageVersion Include="Dapper" Version="2.1.35" />
+    <PackageVersion Include="LiteDB" Version="5.0.21" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    <PackageVersion Include="Microsoft.Data.Sqlite" Version="10.0.3" />
+    <PackageVersion Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.11" />
+    <PackageVersion Include="Microsoft.IO.RecyclableMemoryStream" Version="3.0.1" />
+    <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageVersion Include="Npgsql" Version="10.0.1" />
+    <PackageVersion Include="Npgsql.OpenTelemetry" Version="10.0.1" />
+    <PackageVersion Include="System.Data.Odbc" Version="10.0.2" />
+    <PackageVersion Include="System.Management" Version="10.0.2" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       API Frameworks
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="API Frameworks">
+    <PackageVersion Include="Carter" Version="10.0.0" />
+    <PackageVersion Include="ErrorOr" Version="2.1.0" />
+    <PackageVersion Include="FluentValidation" Version="12.1.1" />
+    <PackageVersion Include="FluentValidation.AspNetCore" Version="11.3.1" />
+    <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageVersion Include="MediatR" Version="12.5.0" />
+    <PackageVersion Include="Scalar.AspNetCore" Version="2.12.40" />
+    <PackageVersion Include="Asp.Versioning.Abstractions" Version="8.1.0" />
+    <PackageVersion Include="Asp.Versioning.Http" Version="8.1.0" />
+    <PackageVersion Include="Asp.Versioning.Mvc" Version="8.1.0" />
+    <PackageVersion Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Wolverine Message Bus
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Wolverine">
+    <PackageVersion Include="WolverineFx" Version="5.15.0" />
+    <PackageVersion Include="WolverineFx.Http" Version="5.15.0" />
+    <PackageVersion Include="WolverineFx.RabbitMQ" Version="5.15.0" />
+    <PackageVersion Include="WolverineFx.Postgresql" Version="5.15.0" />
+    <PackageVersion Include="WolverineFx.EntityFrameworkCore" Version="5.15.0" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Background Jobs (Hangfire)
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Hangfire">
+    <PackageVersion Include="Hangfire" Version="1.8.23" />
+    <PackageVersion Include="Hangfire.Core" Version="1.8.23" />
+    <PackageVersion Include="Hangfire.AspNetCore" Version="1.8.23" />
+    <PackageVersion Include="Hangfire.InMemory" Version="1.0.0" />
+    <PackageVersion Include="Hangfire.MemoryStorage" Version="1.8.1" />
+    <PackageVersion Include="Hangfire.PostgreSql" Version="1.21.1" />
+    <PackageVersion Include="Hangfire.SQLite" Version="1.4.2" />
+    <PackageVersion Include="Hangfire.Storage.SQLite" Version="0.4.2" />
+    <PackageVersion Include="Hangfire.SqlServer" Version="1.8.23" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Logging (Serilog)
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Serilog">
+    <PackageVersion Include="Serilog" Version="4.3.0" />
+    <PackageVersion Include="Serilog.AspNetCore" Version="10.0.0" />
+    <PackageVersion Include="Serilog.Extensions.Hosting" Version="10.0.0" />
+    <PackageVersion Include="Serilog.Extensions.Logging" Version="10.0.0" />
+    <PackageVersion Include="Serilog.Settings.Configuration" Version="10.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Async" Version="2.1.0" />
+    <PackageVersion Include="Serilog.Sinks.Console" Version="6.1.1" />
+    <PackageVersion Include="Serilog.Sinks.EventLog" Version="4.0.0" />
+    <PackageVersion Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageVersion Include="Serilog.Sinks.Grafana.Loki" Version="8.3.2" />
+    <PackageVersion Include="Serilog.Sinks.OpenTelemetry" Version="4.2.0" />
+    <PackageVersion Include="Serilog.Sinks.SQLite" Version="6.0.0" />
+    <PackageVersion Include="Serilog.Enrichers.Environment" Version="3.0.0" />
+    <PackageVersion Include="Serilog.Enrichers.Thread" Version="4.0.0" />
+    <PackageVersion Include="Serilog.Formatting.Compact" Version="3.0.0" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Observability (OpenTelemetry)
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="OpenTelemetry">
+    <PackageVersion Include="OpenTelemetry" Version="1.15.3" />
+    <PackageVersion Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.15.3" />
+    <PackageVersion Include="OpenTelemetry.Exporter.Prometheus.AspNetCore" Version="1.15.0-beta.1" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.15.3" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.15.1" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.EntityFrameworkCore" Version="1.15.0-beta.1" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.15.1" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Runtime" Version="1.14.0" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Error Monitoring (Sentry)
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Sentry">
+    <PackageVersion Include="Sentry.AspNetCore" Version="6.0.0" />
+    <PackageVersion Include="Sentry.Serilog" Version="6.0.0" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Resilience & HTTP
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Resilience and HTTP">
+    <PackageVersion Include="Polly" Version="8.6.3" />
+    <PackageVersion Include="Polly.Extensions.Http" Version="3.0.0" />
+    <PackageVersion Include="VaultSharp" Version="1.17.5" />
+    <PackageVersion Include="WireMock.Net" Version="1.25.0" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Health Checks
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Health Checks">
+    <PackageVersion Include="AspNetCore.HealthChecks.Hangfire" Version="9.0.0" />
+    <PackageVersion Include="AspNetCore.HealthChecks.Npgsql" Version="9.0.0" />
+    <PackageVersion Include="AspNetCore.HealthChecks.SqlServer" Version="8.0.2" />
+    <PackageVersion Include="AspNetCore.HealthChecks.Sqlite" Version="9.0.0" />
+    <PackageVersion Include="AspNetCore.HealthChecks.System" Version="8.0.1" />
+    <PackageVersion Include="AspNetCore.HealthChecks.UI" Version="9.0.0" />
+    <PackageVersion Include="AspNetCore.HealthChecks.UI.Client" Version="9.0.0" />
+    <PackageVersion Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="9.0.0" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       gRPC
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="gRPC">
+    <PackageVersion Include="Google.Protobuf" Version="3.33.5" />
+    <PackageVersion Include="Grpc.AspNetCore" Version="2.76.0" />
+    <PackageVersion Include="Grpc.AspNetCore.Web" Version="2.76.0" />
+    <PackageVersion Include="Grpc.Core.Api" Version="2.76.0" />
+    <PackageVersion Include="Grpc.Net.Client" Version="2.76.0" />
+    <PackageVersion Include="Grpc.Net.ClientFactory" Version="2.76.0" />
+    <PackageVersion Include="Grpc.Tools" Version="2.78.0" />
+    <PackageVersion Include="protobuf-net" Version="3.2.52" />
+    <PackageVersion Include="protobuf-net.Grpc" Version="1.2.5" />
+    <PackageVersion Include="protobuf-net.Grpc.AspNetCore" Version="1.2.2" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       ABP Framework
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="ABP Framework - Account">
+    <PackageVersion Include="Volo.Abp.Account.Application" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Account.Application.Contracts" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Account.HttpApi" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Account.HttpApi.Client" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Account.Web.OpenIddict" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Audit Logging">
+    <PackageVersion Include="Volo.Abp.AuditLogging.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.AuditLogging.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Background Jobs">
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.Abstractions" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.BackgroundJobs.EntityFrameworkCore" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Blob Storing">
+    <PackageVersion Include="Volo.Abp.BlobStoring.Database.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.BlobStoring.Database.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.BlobStoring.Database.EntityFrameworkCore" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Core">
+    <PackageVersion Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite" Version="5.3.0" />
+    <PackageVersion Include="Volo.Abp.AspNetCore.Serilog" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Autofac" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Autofac.WebAssembly" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Authorization" Version="10.3.0" />
+    <!-- Volo.Abp.AutoMapper is opt-in under ABP 10 (was a transitive dep of
+         Account/Identity etc. in ABP 9). Consumers using AbpAutoMapperModule
+         (e.g. estatements AxisConnect.Application + AxisConnect.Web) need
+         this explicit package reference. -->
+    <PackageVersion Include="Volo.Abp.AutoMapper" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Mapperly" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Core" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Caching" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Ddd.Application" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Ddd.Application.Contracts" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Ddd.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Emailing" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FluentValidation" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.GlobalFeatures" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Http.Client.IdentityModel" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.ObjectExtending" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Studio.Client.AspNetCore" Version="2.2.7" />
+    <PackageVersion Include="Volo.Abp.Swashbuckle" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TestBase" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Entity Framework Core">
+    <PackageVersion Include="Volo.Abp.EntityFrameworkCore" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Feature Management">
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Application" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Application.Contracts" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Blazor.Server" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Blazor.WebAssembly" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.HttpApi" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.HttpApi.Client" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.FeatureManagement.Web" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Identity">
+    <PackageVersion Include="Volo.Abp.Identity.Application" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.Application.Contracts" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.Blazor.Server" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.Blazor.WebAssembly" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.EntityFrameworkCore" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.HttpApi" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.HttpApi.Client" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.Identity.Web" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - OpenIddict">
+    <PackageVersion Include="Volo.Abp.OpenIddict.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.OpenIddict.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.OpenIddict.EntityFrameworkCore" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Permission Management">
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Application" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain.OpenIddict" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.PermissionManagement.HttpApi" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.PermissionManagement.HttpApi.Client" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Setting Management">
+    <PackageVersion Include="Volo.Abp.SettingManagement.Application" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.Application.Contracts" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.Blazor.Server" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.Blazor.WebAssembly" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.HttpApi" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.HttpApi.Client" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.SettingManagement.Web" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Tenant Management">
+    <PackageVersion Include="Volo.Abp.TenantManagement.Application" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.Application.Contracts" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.Blazor.Server" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.Blazor.WebAssembly" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.Domain" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.Domain.Shared" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.HttpApi" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.HttpApi.Client" Version="10.3.0" />
+    <PackageVersion Include="Volo.Abp.TenantManagement.Web" Version="10.3.0" />
+  </ItemGroup>
+
+  <ItemGroup Label="ABP Framework - Blazor UI">
+    <PackageVersion Include="Volo.Abp.AspNetCore.Components.Server.LeptonXLiteTheme" Version="5.3.0" />
+    <PackageVersion Include="Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme" Version="5.3.0" />
+    <PackageVersion Include="Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme.Bundling" Version="5.3.0" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Axis Internal SDKs (from AxisNugets feed)
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Axis Internal SDKs">
+    <PackageVersion Include="Axis.FDMS" Version="0.0.1-preview" />
+    <PackageVersion Include="Axis.Promun.GrpcService.Client" Version="0.2.47-preview" />
+    <PackageVersion Include="Axis.Promun.Contracts" Version="0.2.3-preview" />
+    <PackageVersion Include="Axis.Promun.DI" Version="0.2.3-preview" />
+    <PackageVersion Include="Axis.Promun.Modules.Debtors" Version="0.2.3-preview" />
+    <PackageVersion Include="Axis.Promun.Shared" Version="0.2.3-preview" />
+    <PackageVersion Include="Axis.Sage.SDK" Version="0.0.1-preview" />
+    <PackageVersion Include="AccountsLedger.Application" Version="1.0.12" />
+    <PackageVersion Include="AccountsLedger.Application.Contracts" Version="1.0.12" />
+    <PackageVersion Include="AccountsLedger.Domain" Version="1.0.12" />
+    <PackageVersion Include="AccountsLedger.EntityFrameworkCore" Version="1.0.12" />
+    <PackageVersion Include="NominalLedger.Application" Version="1.1.10" />
+    <PackageVersion Include="NominalLedger.Application.Contracts" Version="1.1.10" />
+    <PackageVersion Include="NominalLedger.Domain" Version="1.1.10" />
+    <PackageVersion Include="NominalLedger.EntityFrameworkCore" Version="1.1.10" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Testing
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Testing">
+    <PackageVersion Include="Bogus" Version="35.6.3" />
+    <PackageVersion Include="bunit" Version="2.*" />
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <PackageVersion Include="FluentAssertions" Version="8.8.0" />
+    <PackageVersion Include="FluentAssertions.Web" Version="1.2.1" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+    <PackageVersion Include="Moq" Version="4.20.72" />
+    <PackageVersion Include="Moq.Dapper" Version="1.0.7" />
+    <PackageVersion Include="NetArchTest.Rules" Version="1.3.2" />
+    <PackageVersion Include="NSubstitute" Version="5.3.0" />
+    <PackageVersion Include="NSubstitute.Analyzers.CSharp" Version="1.0.17" />
+    <PackageVersion Include="Respawn" Version="6.2.1" />
+    <PackageVersion Include="Shouldly" Version="4.3.0" />
+    <PackageVersion Include="Testcontainers.MsSql" Version="4.9.0" />
+    <PackageVersion Include="Testcontainers.MySql" Version="4.9.0" />
+    <PackageVersion Include="Testcontainers.PostgreSql" Version="4.5.0" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.analyzers" Version="1.18.0" />
+    <PackageVersion Include="xunit.extensibility.execution" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.5" />
+    <PackageVersion Include="Xunit.SkippableFact" Version="1.5.23" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Code Analysis
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Code Analysis">
+    <PackageVersion Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0" />
+    <PackageVersion Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0" />
+    <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.556" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Versioning
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Versioning">
+    <PackageVersion Include="Nerdbank.GitVersioning" Version="3.9.50" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       UI / Blazor
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Blazor UI">
+    <PackageVersion Include="Blazored.LocalStorage" Version="4.*" />
+    <PackageVersion Include="Blazorise.Bootstrap5" Version="2.0.4" />
+    <PackageVersion Include="Blazorise.Components" Version="2.0.4" />
+    <PackageVersion Include="Blazorise.Icons.FontAwesome" Version="2.0.4" />
+    <PackageVersion Include="MudBlazor" Version="9.2.0" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Desktop / Avalonia
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Avalonia Desktop">
+    <PackageVersion Include="Avalonia" Version="11.3.8" />
+    <PackageVersion Include="Avalonia.Controls.DataGrid" Version="11.3.8" />
+    <PackageVersion Include="Avalonia.Desktop" Version="11.3.8" />
+    <PackageVersion Include="Avalonia.Diagnostics" Version="11.3.8" />
+    <PackageVersion Include="Avalonia.Fonts.Inter" Version="11.3.8" />
+    <PackageVersion Include="Avalonia.Themes.Fluent" Version="11.3.8" />
+    <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.2.1" />
+    <PackageVersion Include="Velopack" Version="0.0.*" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Document Generation / Reporting
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Documents and Reporting">
+    <PackageVersion Include="ClosedXML" Version="0.105.0" />
+    <PackageVersion Include="CsvHelper" Version="33.1.0" />
+    <PackageVersion Include="FastReport.OpenSource" Version="2026.1.2" />
+    <PackageVersion Include="FastReport.OpenSource.Export.PdfSimple" Version="2026.1.2" />
+    <PackageVersion Include="QuestPDF" Version="2025.*" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       CLI Tools
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="CLI">
+    <PackageVersion Include="Spectre.Console" Version="0.54.0" />
+    <PackageVersion Include="Spectre.Console.Cli" Version="0.53.1" />
+    <PackageVersion Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       WCF / SOAP
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="WCF / SOAP">
+    <PackageVersion Include="System.ServiceModel.Primitives" Version="4.10.*" />
+    <PackageVersion Include="System.ServiceModel.Duplex" Version="4.10.*" />
+    <PackageVersion Include="System.ServiceModel.Federation" Version="4.10.*" />
+    <PackageVersion Include="System.ServiceModel.Http" Version="4.10.*" />
+    <PackageVersion Include="System.ServiceModel.NetTcp" Version="4.10.*" />
+    <PackageVersion Include="System.ServiceModel.Security" Version="4.10.*" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Messaging / IoT
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Messaging and IoT">
+    <PackageVersion Include="MailKit" Version="4.15.1" />
+    <PackageVersion Include="MQTTnet" Version="4.3.7.1207" />
+    <PackageVersion Include="Mtume.Client" Version="1.4.9" />
+  </ItemGroup>
+
+  <!-- ═══════════════════════════════════════════════════════════════════
+       Windows / System
+       ═══════════════════════════════════════════════════════════════════ -->
+  <ItemGroup Label="Windows and System">
+    <PackageVersion Include="System.ComponentModel.Annotations" Version="5.0.0" />
+    <PackageVersion Include="System.Diagnostics.EventLog" Version="10.0.7" />
+    <PackageVersion Include="System.IdentityModel.Tokens.Jwt" Version="8.12.0" />
+    <PackageVersion Include="System.Security.Cryptography.ProtectedData" Version="10.0.2" />
+    <PackageVersion Include="System.Security.Cryptography.Xml" Version="10.0.7" />
+    <PackageVersion Include="System.ServiceProcess.ServiceController" Version="10.0.7" />
+    <PackageVersion Include="System.Text.Json" Version="10.0.7" />
+    <PackageVersion Include="WixToolset.Bal.wixext" Version="$(WixSdkVersion)" />
+    <PackageVersion Include="WixToolset.Firewall.wixext" Version="$(WixSdkVersion)" />
+    <PackageVersion Include="WixToolset.Util.wixext" Version="$(WixSdkVersion)" />
+  </ItemGroup>
+
+
+</Project>

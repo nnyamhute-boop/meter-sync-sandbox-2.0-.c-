@@ -1,0 +1,320 @@
+<Solution>
+  <Folder Name="/libs/" />
+  <Folder Name="/libs/axis-faultsoft/">
+    <Project Path="libs/axis-faultsoft/Axis.FaultSoft.Blazor/Axis.FaultSoft.Blazor.csproj" />
+    <Project Path="libs/axis-faultsoft/Axis.FaultSoft.Core.Tests/Axis.FaultSoft.Core.Tests.csproj" />
+    <Project Path="libs/axis-faultsoft/Axis.FaultSoft.Core/Axis.FaultSoft.Core.csproj" />
+  </Folder>
+  <Folder Name="/libs/blazor-ui/">
+    <Project Path="libs/blazor-ui/Axis.Axiom/Axis.Axiom.csproj" />
+    <Project Path="libs/blazor-ui/Axis.Axiom.Gallery/Axis.Axiom.Gallery.csproj" />
+    <Project Path="libs/blazor-ui/Axis.Axiom.Tests/Axis.Axiom.Tests.csproj" />
+  </Folder>
+  <Folder Name="/products/" />
+  <Folder Name="/products/promun/" />
+  <Folder Name="/products/promun/estatements/">
+    <Project Path="products/promun/estatements/AxisConnect.Statements.ConsoleApp/AxisConnect.Statements.ConsoleApp.csproj" />
+    <Project Path="products/promun/estatements/AxisConnect.Statements/AxisConnect.Statements.csproj" />
+    <Project Path="products/promun/estatements/AxisMessaging/AxisMessaging.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/estatements/src/">
+    <Project Path="products/promun/estatements/src/AxisConnect.Application.Contracts/AxisConnect.Application.Contracts.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.Application/AxisConnect.Application.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.DbMigrator/AxisConnect.DbMigrator.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.Domain.Shared/AxisConnect.Domain.Shared.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.Domain/AxisConnect.Domain.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.EntityFrameworkCore/AxisConnect.EntityFrameworkCore.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.HttpApi.Client/AxisConnect.HttpApi.Client.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.HttpApi/AxisConnect.HttpApi.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.Statements/AxisConnect.Statements.csproj" />
+    <Project Path="products/promun/estatements/src/AxisConnect.Web/AxisConnect.Web.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/estatements/src/AxisConnect.Application/" />
+  <Folder Name="/products/promun/estatements/src/AxisConnect.Application/SendingSMS/">
+    <Project Path="products/promun/estatements/src/AxisConnect.Application/SendingSMS/AxisConnect.SendingSms/AxisConnect.SendingSms.csproj" />
+  </Folder>
+  <Folder Name="/products/konekt/" />
+  <Folder Name="/products/konekt/api/" />
+  <Folder Name="/products/konekt/api/src/">
+    <Project Path="products/konekt/api/src/Axis.Konekt.Api/Axis.Konekt.Api.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.AppHost/Axis.Konekt.AppHost.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.Contracts/Axis.Konekt.Contracts.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.Core/Axis.Konekt.Core.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.Encryption/Axis.Konekt.Encryption.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.Ledger/Axis.Konekt.Ledger.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.Migrations/Axis.Konekt.Migrations.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.Persistence/Axis.Konekt.Persistence.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.ServiceDefaults/Axis.Konekt.ServiceDefaults.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.Storage/Axis.Konekt.Storage.csproj" />
+    <Project Path="products/konekt/api/src/Axis.Konekt.Tenancy/Axis.Konekt.Tenancy.csproj" />
+  </Folder>
+  <Folder Name="/products/konekt/api/src/modules/">
+    <Project Path="products/konekt/api/src/modules/Axis.Konekt.Billing/Axis.Konekt.Billing.csproj" />
+    <Project Path="products/konekt/api/src/modules/Axis.Konekt.Connections/Axis.Konekt.Connections.csproj" />
+    <Project Path="products/konekt/api/src/modules/Axis.Konekt.Documents/Axis.Konekt.Documents.csproj" />
+    <Project Path="products/konekt/api/src/modules/Axis.Konekt.Participants/Axis.Konekt.Participants.csproj" />
+    <Project Path="products/konekt/api/src/modules/Axis.Konekt.Payments/Axis.Konekt.Payments.csproj" />
+  </Folder>
+  <Folder Name="/products/konekt/api/tests/">
+    <Project Path="products/konekt/api/tests/Axis.Konekt.Api.Tests/Axis.Konekt.Api.Tests.csproj" />
+    <Project Path="products/konekt/api/tests/Axis.Konekt.Encryption.Tests/Axis.Konekt.Encryption.Tests.csproj" />
+    <Project Path="products/konekt/api/tests/Axis.Konekt.Integration.Tests/Axis.Konekt.Integration.Tests.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/mtume-client/" />
+  <Folder Name="/products/promun/mtume-client/src/">
+    <Project Path="products/promun/mtume-client/src/Mtume.Client/Mtume.Client.csproj" />
+    <Project Path="products/promun/mtume-client/src/Mtume.WebApp/Mtume.WebApp.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/mtume-client/tests/">
+    <Project Path="products/promun/mtume-client/tests/Mtume.Client.Tests/Mtume.Client.Tests.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/grpc/" />
+  <Folder Name="/products/promun/grpc/src/">
+    <Project Path="products/promun/grpc/src/Axis.Promun.GrpcService/Axis.Promun.GrpcService.csproj" />
+    <Project Path="products/promun/grpc/src/Axis.Promun.GrpcService.Services/Axis.Promun.GrpcService.Services.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/grpc/tests/">
+    <Project Path="products/promun/grpc/tests/Axis.Promun.GrpcService.Tests/Axis.Promun.GrpcService.Tests.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/dba/src/">
+    <Project Path="products/promun/dba/src/Axis.Promun.Dba.Cli/Axis.Promun.Dba.Cli.csproj" />
+    <Project Path="products/promun/dba/src/Axis.Promun.Dba.Configuration/Axis.Promun.Dba.Configuration.csproj" />
+    <Project Path="products/promun/dba/src/Axis.Promun.Dba.Core/Axis.Promun.Dba.Core.csproj" />
+    <Project Path="products/promun/dba/src/Axis.Promun.Dba.Infrastructure/Axis.Promun.Dba.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/dba/tests/">
+    <Project Path="products/promun/dba/tests/Axis.Promun.Dba.Tests/Axis.Promun.Dba.Tests.csproj" />
+  </Folder>
+  <Folder Name="/products/promun/online-payments-legacy/" />
+  <Folder Name="/products/promun/online-payments-legacy/sync/">
+    <Project Path="products/promun/online-payments-legacy/sync/src/PromunSync.Console/PromunSync.Console.csproj" />
+    <Project Path="products/promun/online-payments-legacy/sync/src/PromunSync.Core/PromunSync.Core.csproj" />
+    <Project Path="products/promun/online-payments-legacy/sync/src/PromunSync.Data/PromunSync.Data.csproj" />
+    <Project Path="products/promun/online-payments-legacy/sync/src/PromunSync.Jobs/PromunSync.Jobs.csproj" />
+    <Project Path="products/promun/online-payments-legacy/sync/src/PromunSync.Service/PromunSync.Service.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/" />
+  <Folder Name="/products/revcoll/platform/" />
+  <Folder Name="/products/revcoll/platform/src/">
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.Api/Axis.Revcoll.Api.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.AppHost/Axis.Revcoll.AppHost.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.Cli/Axis.Revcoll.Cli.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.Contracts.Tests/Axis.Revcoll.Contracts.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.Contracts/Axis.Revcoll.Contracts.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.IntegrationTests/Axis.Revcoll.IntegrationTests.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.Migrator/Axis.Revcoll.Migrator.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.ServiceDefaults/Axis.Revcoll.ServiceDefaults.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.Shared/Axis.Revcoll.Shared.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.TestInfrastructure/Axis.Revcoll.TestInfrastructure.csproj" />
+    <Project Path="products/revcoll/platform/src/Axis.Revcoll.Web/Axis.Revcoll.Web.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/" />
+  <Folder Name="/products/revcoll/platform/src/Modules/AccessControl/">
+    <Project Path="products/revcoll/platform/src/Modules/AccessControl/Axis.Revcoll.AccessControl.Tests/Axis.Revcoll.AccessControl.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/AccessControl/Axis.Revcoll.AccessControl/Axis.Revcoll.AccessControl.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Accounting/">
+    <Project Path="products/revcoll/platform/src/Modules/Accounting/Axis.Revcoll.Accounting.Tests/Axis.Revcoll.Accounting.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Accounting/Axis.Revcoll.Accounting/Axis.Revcoll.Accounting.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/AR/">
+    <Project Path="products/revcoll/platform/src/Modules/AR/Axis.Revcoll.AR.Tests/Axis.Revcoll.AR.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/AR/Axis.Revcoll.AR/Axis.Revcoll.AR.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Audit/">
+    <Project Path="products/revcoll/platform/src/Modules/Audit/Axis.Revcoll.Audit.Tests/Axis.Revcoll.Audit.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Audit/Axis.Revcoll.Audit/Axis.Revcoll.Audit.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/CashManagement/">
+    <Project Path="products/revcoll/platform/src/Modules/CashManagement/Axis.Revcoll.CashManagement.Tests/Axis.Revcoll.CashManagement.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/CashManagement/Axis.Revcoll.CashManagement/Axis.Revcoll.CashManagement.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Catalog/">
+    <Project Path="products/revcoll/platform/src/Modules/Catalog/Axis.Revcoll.Catalog.Tests/Axis.Revcoll.Catalog.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Catalog/Axis.Revcoll.Catalog/Axis.Revcoll.Catalog.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Config/">
+    <Project Path="products/revcoll/platform/src/Modules/Config/Axis.Revcoll.Config.Tests/Axis.Revcoll.Config.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Config/Axis.Revcoll.Config/Axis.Revcoll.Config.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Currency/">
+    <Project Path="products/revcoll/platform/src/Modules/Currency/Axis.Revcoll.Currency.Tests/Axis.Revcoll.Currency.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Currency/Axis.Revcoll.Currency/Axis.Revcoll.Currency.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Customers/">
+    <Project Path="products/revcoll/platform/src/Modules/Customers/Axis.Revcoll.Customers.Tests/Axis.Revcoll.Customers.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Customers/Axis.Revcoll.Customers/Axis.Revcoll.Customers.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Identity/">
+    <Project Path="products/revcoll/platform/src/Modules/Identity/Axis.Revcoll.Identity.Tests/Axis.Revcoll.Identity.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Identity/Axis.Revcoll.Identity/Axis.Revcoll.Identity.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Integrations/">
+    <Project Path="products/revcoll/platform/src/Modules/Integrations/Axis.Revcoll.Integrations.Tests/Axis.Revcoll.Integrations.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Integrations/Axis.Revcoll.Integrations/Axis.Revcoll.Integrations.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Locations/">
+    <Project Path="products/revcoll/platform/src/Modules/Locations/Axis.Revcoll.Locations.Tests/Axis.Revcoll.Locations.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Locations/Axis.Revcoll.Locations/Axis.Revcoll.Locations.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Migration/">
+    <Project Path="products/revcoll/platform/src/Modules/Migration/Axis.Revcoll.Migration.Tests/Axis.Revcoll.Migration.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Migration/Axis.Revcoll.Migration/Axis.Revcoll.Migration.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Notifications/">
+    <Project Path="products/revcoll/platform/src/Modules/Notifications/Axis.Revcoll.Notifications.Tests/Axis.Revcoll.Notifications.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Notifications/Axis.Revcoll.Notifications/Axis.Revcoll.Notifications.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Operations/">
+    <Project Path="products/revcoll/platform/src/Modules/Operations/Axis.Revcoll.Operations.Tests/Axis.Revcoll.Operations.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Operations/Axis.Revcoll.Operations/Axis.Revcoll.Operations.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Payments/">
+    <Project Path="products/revcoll/platform/src/Modules/Payments/Axis.Revcoll.Payments.Tests/Axis.Revcoll.Payments.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Payments/Axis.Revcoll.Payments/Axis.Revcoll.Payments.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Pricing/">
+    <Project Path="products/revcoll/platform/src/Modules/Pricing/Axis.Revcoll.Pricing.Tests/Axis.Revcoll.Pricing.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Pricing/Axis.Revcoll.Pricing/Axis.Revcoll.Pricing.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Reporting/">
+    <Project Path="products/revcoll/platform/src/Modules/Reporting/Axis.Revcoll.Reporting.Tests/Axis.Revcoll.Reporting.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Reporting/Axis.Revcoll.Reporting/Axis.Revcoll.Reporting.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Shifts/">
+    <Project Path="products/revcoll/platform/src/Modules/Shifts/Axis.Revcoll.Shifts.Tests/Axis.Revcoll.Shifts.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Shifts/Axis.Revcoll.Shifts/Axis.Revcoll.Shifts.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/platform/src/Modules/Transactions/">
+    <Project Path="products/revcoll/platform/src/Modules/Transactions/Axis.Revcoll.Transactions.Tests/Axis.Revcoll.Transactions.Tests.csproj" />
+    <Project Path="products/revcoll/platform/src/Modules/Transactions/Axis.Revcoll.Transactions/Axis.Revcoll.Transactions.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/api-legacy/" />
+  <Folder Name="/products/revcoll/api-legacy/src/">
+    <Project Path="products/revcoll/api-legacy/src/Axis.Revcoll/Axis.Revcoll.csproj" />
+    <Project Path="products/revcoll/api-legacy/src/Axis.Revcoll.Admin/Axis.Revcoll.Admin.csproj" />
+  </Folder>
+  <Folder Name="/products/revcoll/api-legacy/tests/">
+    <Project Path="products/revcoll/api-legacy/tests/Axis.Revcoll.ArchitectureTests/Axis.Revcoll.ArchitectureTests.csproj" />
+    <Project Path="products/revcoll/api-legacy/tests/Axis.Revcoll.IntegrationTests/Axis.Revcoll.IntegrationTests.csproj" />
+    <Project Path="products/revcoll/api-legacy/tests/Axis.Revcoll.TestUtilities/Axis.Revcoll.TestUtilities.csproj" />
+    <Project Path="products/revcoll/api-legacy/tests/Axis.Revcoll.UnitTests/Axis.Revcoll.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/products/unipay/" />
+  <Folder Name="/products/unipay/api/" />
+  <Folder Name="/products/unipay/api/src/">
+    <Project Path="products/unipay/api/src/UNIPAY.Application.Contracts/UNIPAY.Application.Contracts.csproj" />
+    <Project Path="products/unipay/api/src/UNIPAY.Application/UNIPAY.Application.csproj" />
+    <Project Path="products/unipay/api/src/UNIPAY.Blazor/UNIPAY.Blazor.csproj" />
+    <Project Path="products/unipay/api/src/UNIPAY.DbMigrator/UNIPAY.DbMigrator.csproj" />
+    <Project Path="products/unipay/api/src/UNIPAY.Domain.Shared/UNIPAY.Domain.Shared.csproj" />
+    <Project Path="products/unipay/api/src/UNIPAY.Domain/UNIPAY.Domain.csproj" />
+    <Project Path="products/unipay/api/src/UNIPAY.EntityFrameworkCore/UNIPAY.EntityFrameworkCore.csproj" />
+    <Project Path="products/unipay/api/src/UNIPAY.HttpApi.Client/UNIPAY.HttpApi.Client.csproj" />
+    <Project Path="products/unipay/api/src/UNIPAY.HttpApi/UNIPAY.HttpApi.csproj" />
+  </Folder>
+  <Folder Name="/products/unipay/api/test/">
+    <Project Path="products/unipay/api/test/UNIPAY.Application.Tests/UNIPAY.Application.Tests.csproj" />
+    <Project Path="products/unipay/api/test/UNIPAY.Domain.Tests/UNIPAY.Domain.Tests.csproj" />
+    <Project Path="products/unipay/api/test/UNIPAY.EntityFrameworkCore.Tests/UNIPAY.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="products/unipay/api/test/UNIPAY.HttpApi.Client.ConsoleTestApp/UNIPAY.HttpApi.Client.ConsoleTestApp.csproj" />
+    <Project Path="products/unipay/api/test/UNIPAY.TestBase/UNIPAY.TestBase.csproj" />
+  </Folder>
+  <Folder Name="/products/sync/" />
+  <Folder Name="/products/sync/src/" />
+  <Folder Name="/products/sync/src/Hosts/">
+    <Project Path="products/sync/src/Hosts/Axis.Sync.WebApp/Axis.Sync.WebApp.csproj" />
+  </Folder>
+  <Folder Name="/products/sync/src/Infrastructure/" />
+  <Folder Name="/products/sync/src/Infrastructure/ERP/" />
+  <Folder Name="/products/sync/src/Infrastructure/ERP/Promun/">
+    <Project Path="products/sync/src/Infrastructure/ERP/Promun/Axis.Sync.ErpPlugin.Promun/Axis.Sync.ErpPlugin.Promun.csproj" />
+  </Folder>
+  <Folder Name="/products/sync/src/Infrastructure/ERP/Sage/">
+    <Project Path="products/sync/src/Infrastructure/ERP/Sage/Axis.Sync.ErpPlugin.Sage/Axis.Sync.ErpPlugin.Sage.csproj" />
+  </Folder>
+  <Folder Name="/products/sync/src/Modules/">
+    <Project Path="products/sync/src/Modules/Axis.Sync.Modules.ErpIntegration/Axis.Sync.Modules.ErpIntegration.csproj" />
+    <Project Path="products/sync/src/Modules/Axis.Sync.Modules.Fiscalization/Axis.Sync.Modules.Fiscalization.csproj" />
+    <Project Path="products/sync/src/Modules/Axis.Sync.Modules.Payments/Axis.Sync.Modules.Payments.csproj" />
+    <Project Path="products/sync/src/Modules/Axis.Sync.Modules.Reconciliation/Axis.Sync.Modules.Reconciliation.csproj" />
+    <Project Path="products/sync/src/Modules/Axis.Sync.Modules.Statements/Axis.Sync.Modules.Statements.csproj" />
+  </Folder>
+  <Folder Name="/products/sync/src/SharedKernel/">
+    <Project Path="products/sync/src/SharedKernel/Axis.Sync.SharedKernel/Axis.Sync.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/products/sync/test/">
+    <Project Path="products/sync/test/Axis.Sync.ErpPlugin.Promun.Tests/Axis.Sync.ErpPlugin.Promun.Tests.csproj" />
+    <Project Path="products/sync/test/Axis.Sync.Modules.Fiscalization.IntegrationTests/Axis.Sync.Modules.Fiscalization.IntegrationTests.csproj" />
+    <Project Path="products/sync/test/Axis.Sync.Modules.Fiscalization.Tests/Axis.Sync.Modules.Fiscalization.Tests.csproj" />
+    <Project Path="products/sync/test/Axis.Sync.Modules.Payments.Tests/Axis.Sync.Modules.Payments.Tests.csproj" />
+    <Project Path="products/sync/test/Axis.Sync.WebApp.UnitTests/Axis.Sync.WebApp.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/products/sync/tools/">
+    <Project Path="products/sync/tools/ConfigKeyMigration/ConfigKeyMigration.csproj" />
+    <Project Path="products/sync/tools/MigrateKeys/MigrateKeys.csproj" />
+  </Folder>
+  <Folder Name="/sdk/" />
+  <Folder Name="/sdk/fdms/" />
+  <Folder Name="/sdk/fdms/src/">
+    <Project Path="sdk/fdms/src/Axis.FDMS.Contracts/Axis.FDMS.Contracts.csproj" />
+    <Project Path="sdk/fdms/src/Axis.FDMS.DependencyInjection/Axis.FDMS.DependencyInjection.csproj" />
+    <Project Path="sdk/fdms/src/Axis.FDMS.Storage.PostgreSQL/Axis.FDMS.Storage.PostgreSQL.csproj" />
+    <Project Path="sdk/fdms/src/Axis.FDMS.Storage.SqlServer/Axis.FDMS.Storage.SqlServer.csproj" />
+    <Project Path="sdk/fdms/src/Axis.FDMS/Axis.FDMS.csproj" />
+  </Folder>
+  <Folder Name="/sdk/fdms/test/">
+    <Project Path="sdk/fdms/test/Axis.FDMS.Tests/Axis.FDMS.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/nedbank/">
+    <Project Path="sdk/nedbank/Axis.Nedbank.Sdk.Payments.Samples/Axis.Nedbank.Sdk.Payments.Samples.csproj" />
+    <Project Path="sdk/nedbank/Axis.Nedbank.Sdk.Payments.Tests/Axis.Nedbank.Sdk.Payments.Tests.csproj" />
+    <Project Path="sdk/nedbank/Axis.Nedbank.Sdk.Payments/Axis.Nedbank.Sdk.Payments.csproj" />
+  </Folder>
+  <Folder Name="/sdk/promun/" />
+  <Folder Name="/sdk/promun/samples/" />
+  <Folder Name="/sdk/promun/samples/Axis.Promun.GrpcClient.CSharp/">
+    <Project Path="sdk/promun/samples/Axis.Promun.GrpcClient.CSharp/Axis.Promun.GrpcClient.CSharp/Axis.Promun.GrpcClient.CSharp.csproj" />
+  </Folder>
+  <Folder Name="/sdk/promun/src/">
+    <Project Path="sdk/promun/src/Axis.Promun.Contracts/Axis.Promun.Contracts.csproj" />
+    <Project Path="sdk/promun/src/Axis.Promun.DI/Axis.Promun.DI.csproj" />
+    <Project Path="sdk/promun/src/Axis.Promun.SecureConfig/Axis.Promun.SecureConfig.csproj" />
+    <Project Path="sdk/promun/src/Axis.Promun.Shared/Axis.Promun.Shared.csproj" />
+    <Project Path="sdk/promun/src/Axis.Promun.GrpcService.Client/Axis.Promun.GrpcService.Client.csproj" />
+    <Project Path="sdk/promun/src/Axis.Promun.GrpcService.Protos/Axis.Promun.GrpcService.Protos.csproj" />
+  </Folder>
+  <Folder Name="/sdk/promun/src/modules/">
+    <Project Path="sdk/promun/src/modules/Axis.Promun.Modules.Creditors/Axis.Promun.Modules.Creditors.csproj" />
+    <Project Path="sdk/promun/src/modules/Axis.Promun.Modules.Debtors/Axis.Promun.Modules.Debtors.csproj" />
+    <Project Path="sdk/promun/src/modules/Axis.Promun.Modules.HumanResources/Axis.Promun.Modules.HumanResources.csproj" />
+    <Project Path="sdk/promun/src/modules/Axis.Promun.Modules.MeterReading/Axis.Promun.Modules.MeterReading.csproj" />
+    <Project Path="sdk/promun/src/modules/Axis.Promun.Modules.Receipting/Axis.Promun.Modules.Receipting.csproj" />
+  </Folder>
+  <Folder Name="/sdk/promun/tests/">
+    <Project Path="sdk/promun/tests/Axis.Promun.Contracts.Tests/Axis.Promun.Contracts.Tests.csproj" />
+    <Project Path="sdk/promun/tests/Axis.Promun.DI.Tests/Axis.Promun.DI.Tests.csproj" />
+    <Project Path="sdk/promun/tests/Axis.Promun.SecureConfig.Tests/Axis.Promun.SecureConfig.Tests.csproj" />
+    <Project Path="sdk/promun/tests/Axis.Promun.TestInfrastructure/Axis.Promun.TestInfrastructure.csproj" />
+  </Folder>
+  <Folder Name="/sdk/promun/tests/modules/">
+    <Project Path="sdk/promun/tests/modules/Axis.Promun.Modules.Creditors.Tests/Axis.Promun.Modules.Creditors.Tests.csproj" />
+    <Project Path="sdk/promun/tests/modules/Axis.Promun.Modules.Debtors.Tests/Axis.Promun.Modules.Debtors.Tests.csproj" />
+    <Project Path="sdk/promun/tests/modules/Axis.Promun.Modules.HumanResources.Tests/Axis.Promun.Modules.HumanResources.Tests.csproj" />
+    <Project Path="sdk/promun/tests/modules/Axis.Promun.Modules.MeterReading.Tests/Axis.Promun.Modules.MeterReading.Tests.csproj" />
+    <Project Path="sdk/promun/tests/modules/Axis.Promun.Modules.Receipting.Tests/Axis.Promun.Modules.Receipting.Tests.csproj" />
+  </Folder>
+  <Folder Name="/sdk/promun/tools/">
+    <Project Path="sdk/promun/tools/Benchmark/Benchmark.csproj" />
+  </Folder>
+  <Folder Name="/sdk/unipay/" />
+  <Folder Name="/sdk/unipay/src/">
+    <Project Path="sdk/unipay/src/Axis.Unipay.Contracts/Axis.Unipay.Contracts.csproj" />
+    <Project Path="sdk/unipay/src/Axis.Unipay.DependencyInjection/Axis.Unipay.DependencyInjection.csproj" />
+    <Project Path="sdk/unipay/src/Axis.Unipay/Axis.Unipay.csproj" />
+  </Folder>
+  <Folder Name="/sdk/unipay/tests/">
+    <Project Path="sdk/unipay/tests/Axis.Unipay.IntegrationTests/Axis.Unipay.IntegrationTests.csproj" />
+    <Project Path="sdk/unipay/tests/Axis.Unipay.Tests/Axis.Unipay.Tests.csproj" />
+  </Folder>
+</Solution>

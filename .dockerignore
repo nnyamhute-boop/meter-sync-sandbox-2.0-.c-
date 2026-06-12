@@ -1,0 +1,50 @@
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+# IDE and Editor
+.vs/
+.vscode/
+**/.idea
+**/*.user
+
+# Build artifacts — always excluded; images build from source
+**/bin/
+**/obj/
+**/TestResults/
+
+# OS and temp files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── Top-level directories not needed inside any product image ─────────────────
+docs/
+infrastructure/
+tools/
+build-logic/
+sdk/
+libs/
+pipelines/
+gradle/
+gradlew
+gradlew.bat
+installers/
+
+# ── Products not relevant to Unipay API builds ────────────────────────────────
+# (revcoll's docker-compose uses only pre-built images, so it has no context)
+products/revcoll/
+products/konekt/
+products/mtume/
+
+# ── Within Unipay: exclude the sync engine and test projects ──────────────────
+products/sync/
+products/unipay/api/test/
+
+# ── Exclude deploy configs — not needed inside the image ─────────────────────
+products/unipay/api/deploy/
+products/unipay/api/.azure/
+products/unipay/api/*.slnx

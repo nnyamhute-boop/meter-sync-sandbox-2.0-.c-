@@ -1,0 +1,9 @@
+{
+  "ConnectionStrings": {
+    "PromunSource": "DSN=Promun;UID=user;PWD=pass"
+  },
+  "MeterReadingSync": {
+    "PostgresConnectionString": "Host=localhost;Database=axis_meters;Username=postgres;Password=secret",
+    "BatchSize": 200
+  }
+}

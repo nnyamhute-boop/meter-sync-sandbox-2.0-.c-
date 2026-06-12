@@ -1,0 +1,23 @@
+{
+  "name": "public-sector-monorepo",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:css:axiom": "tailwindcss -i libs/blazor-ui/Axis.Axiom/tailwind/app.css -o libs/blazor-ui/Axis.Axiom/wwwroot/css/axiom.utilities.css --minify",
+    "build:css:gallery": "tailwindcss -i libs/blazor-ui/Axis.Axiom.Gallery/tailwind/app.css -o libs/blazor-ui/Axis.Axiom.Gallery/wwwroot/app.css --minify",
+    "build:css:revcoll": "tailwindcss -i products/revcoll/platform/src/Axis.Revcoll.Web/tailwind/app.css -o products/revcoll/platform/src/Axis.Revcoll.Web/wwwroot/app.css --minify",
+    "build:css:axis-sync": "tailwindcss -i products/sync/src/Hosts/Axis.Sync.WebApp/tailwind/app.css -o products/sync/src/Hosts/Axis.Sync.WebApp/wwwroot/app.css --minify",
+    "build:css:promun-grpc": "tailwindcss -i products/promun/grpc/src/Axis.Promun.GrpcService/tailwind/app.css -o products/promun/grpc/src/Axis.Promun.GrpcService/wwwroot/app.css --minify",
+    "build:css": "npm run build:css:axiom && npm run build:css:gallery && npm run build:css:revcoll && npm run build:css:axis-sync && npm run build:css:promun-grpc",
+    "watch:css:axiom": "tailwindcss -i libs/blazor-ui/Axis.Axiom/tailwind/app.css -o libs/blazor-ui/Axis.Axiom/wwwroot/css/axiom.utilities.css --watch",
+    "watch:css:gallery": "tailwindcss -i libs/blazor-ui/Axis.Axiom.Gallery/tailwind/app.css -o libs/blazor-ui/Axis.Axiom.Gallery/wwwroot/app.css --watch",
+    "watch:css:revcoll": "tailwindcss -i products/revcoll/platform/src/Axis.Revcoll.Web/tailwind/app.css -o products/revcoll/platform/src/Axis.Revcoll.Web/wwwroot/app.css --watch",
+    "watch:css:axis-sync": "tailwindcss -i products/sync/src/Hosts/Axis.Sync.WebApp/tailwind/app.css -o products/sync/src/Hosts/Axis.Sync.WebApp/wwwroot/app.css --watch",
+    "watch:css:promun-grpc": "tailwindcss -i products/promun/grpc/src/Axis.Promun.GrpcService/tailwind/app.css -o products/promun/grpc/src/Axis.Promun.GrpcService/wwwroot/app.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.2.2"
+  }
+}
