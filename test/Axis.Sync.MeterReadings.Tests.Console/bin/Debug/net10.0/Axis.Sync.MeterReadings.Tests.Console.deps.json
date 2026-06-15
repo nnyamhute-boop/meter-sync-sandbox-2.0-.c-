@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Axis.Sync.MeterReadings.Tests.Console/1.0.0": {
+        "runtime": {
+          "Axis.Sync.MeterReadings.Tests.Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Axis.Sync.MeterReadings.Tests.Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

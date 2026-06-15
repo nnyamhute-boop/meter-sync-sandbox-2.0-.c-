@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "8STnfrN4qa4=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Nokutenda Paul\\Desktop\\meter-sync-sandbox 2.0 .c#\\src\\MeterSync.Writers\\MeterSync.Writers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nokutenda Paul\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Nokutenda Paul\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
+    "C:\\Users\\Nokutenda Paul\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Nokutenda Paul\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\Nokutenda Paul\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "MeterSync.Writers depends on Npgsql (>= 7.0.5) but Npgsql 7.0.5 was not found. Npgsql 7.0.6 was resolved instead.",
+      "projectPath": "c:\\Users\\Nokutenda Paul\\Desktop\\meter-sync-sandbox 2.0 .c#\\src\\MeterSync.Writers\\MeterSync.Writers.csproj",
+      "warningLevel": 1,
+      "filePath": "c:\\Users\\Nokutenda Paul\\Desktop\\meter-sync-sandbox 2.0 .c#\\src\\MeterSync.Writers\\MeterSync.Writers.csproj",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Npgsql' 7.0.6 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "projectPath": "c:\\Users\\Nokutenda Paul\\Desktop\\meter-sync-sandbox 2.0 .c#\\src\\MeterSync.Writers\\MeterSync.Writers.csproj",
+      "warningLevel": 1,
+      "filePath": "c:\\Users\\Nokutenda Paul\\Desktop\\meter-sync-sandbox 2.0 .c#\\src\\MeterSync.Writers\\MeterSync.Writers.csproj",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

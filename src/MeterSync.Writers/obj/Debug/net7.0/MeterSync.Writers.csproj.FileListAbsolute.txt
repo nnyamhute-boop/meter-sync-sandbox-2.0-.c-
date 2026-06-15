@@ -1,0 +1,5 @@
+C:\Users\Nokutenda Paul\Desktop\meter-sync-sandbox 2.0 .c#\src\MeterSync.Writers\obj\Debug\net7.0\MeterSync.Writers.csproj.AssemblyReference.cache
+C:\Users\Nokutenda Paul\Desktop\meter-sync-sandbox 2.0 .c#\src\MeterSync.Writers\obj\Debug\net7.0\MeterSync.Writers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nokutenda Paul\Desktop\meter-sync-sandbox 2.0 .c#\src\MeterSync.Writers\obj\Debug\net7.0\MeterSync.Writers.AssemblyInfoInputs.cache
+C:\Users\Nokutenda Paul\Desktop\meter-sync-sandbox 2.0 .c#\src\MeterSync.Writers\obj\Debug\net7.0\MeterSync.Writers.AssemblyInfo.cs
+C:\Users\Nokutenda Paul\Desktop\meter-sync-sandbox 2.0 .c#\src\MeterSync.Writers\obj\Debug\net7.0\MeterSync.Writers.csproj.CoreCompileInputs.cache
